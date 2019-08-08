@@ -1,0 +1,19 @@
+/* Imagens do carrocel responsivas */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:577px) {
+    .footer-home {
+        width: 50%;
+        order: 1;
+    }
+    .footer-copyright {
+        width: 100%;
+        order: 3;
+    }
+    .footer-topo {
+        width: 50%;
+        order: 2;
+    }
+}
